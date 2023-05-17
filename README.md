@@ -13,7 +13,7 @@ def deps do
   ]
 end
 
-Then, run mix deps.get to fetch the dependency.
+# Then, run mix deps.get to fetch the dependency.
 
-`data = SfFoodTrucks.fetch_data()`
+data = SfFoodTrucks.fetch_data()
 
