@@ -23,7 +23,8 @@ defmodule SfFoodTrucks.MixProject do
   defp deps do
     [
       {:httpoison, "~> 2.1"},
-      {:csv, "~> 3.0"}
+      {:csv, "~> 3.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
